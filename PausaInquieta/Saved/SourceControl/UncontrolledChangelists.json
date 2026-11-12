@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Experiencia_PI.umap",
+				"C:/Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Core/BP_PI_EventDirector.uasset",
+				"C:/Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Interactables/BP_PI_FloorButton.uasset",
+				"C:/Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Interactables/BP_PI_GrabCube.uasset",
+				"C:/Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Environment/BP_PI_Heart.uasset",
 				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Experiencia_PI.umap",
 				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Core/BP_PI_ExperienceManager.uasset",
 				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Debug/SM_PI_AxisProbe.uasset",
@@ -80,8 +85,7 @@
 				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Interactables/BP_PI_FloorButton.uasset",
 				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Interactables/BP_PI_PictureFrame.uasset",
 				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Interactables/BP_PI_WordWall.uasset",
-				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Mechanics/BP_PI_DominoController.uasset",
-				"C:/Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Experiencia_PI.umap"
+				"C:/UNREAL TESIS/Unreal_PausaInquieta/PausaInquieta/Content/Pausa_Inquieta/Blueprints/Mechanics/BP_PI_DominoController.uasset"
 			]
 		}
 	]
