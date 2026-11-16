@@ -2524,3 +2524,1098 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.16-23.30.25:831][395]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.16-23.30.25:831][395]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.16-23.30.25:831][395]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.16-23.34.58:325][792]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.34.58:329][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.34.58:330][792]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.34.58:334][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003706s)
+[2026.11.16-23.34.58:334][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003737s)
+[2026.11.16-23.34.58:349][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.11.16-23.34.58:350][792]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.34.58:351][792]LogPlayLevel: PIE: World Init took: (0.001490s)
+[2026.11.16-23.34.58:352][792]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.34.58:352][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.34.58:352][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.34.58:352][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.34.58:352][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.34.58:352][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.34.58:354][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.34.58:372][792]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.34.58:372][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.34.58:372][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.34.58:372][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.34.58:373][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.11.16-23.34.58:373][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.11.16-23.34.58:376][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.11.16-23.34.58:376][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.11.16-23.34.58:376][792]LogInit: FAudioDevice initialized with ID 21.
+[2026.11.16-23.34.58:376][792]LogAudio: Display: Audio Device (ID: 21) registered with world 'Mapa_PI'.
+[2026.11.16-23.34.58:376][792]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.11.16-23.34.58:421][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.34.58:421][792]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.34.58:422][792]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.34.58
+[2026.11.16-23.34.58:422][792]LogWorld: Bringing up level for play took: 0.001304
+[2026.11.16-23.34.58:426][792]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.11.16-23.34.58:434][792]PIE: Server logged in
+[2026.11.16-23.34.58:436][792]PIE: Play in editor total start time 0.106 seconds.
+[2026.11.16-23.34.58:508][793]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.35.20:165][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.35.20:165][369]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.35.20:166][369]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.35.20:170][369]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.35.20:171][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.35.20:171][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.35.20:174][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.35.20:190][369]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.16-23.35.20:190][369]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.11.16-23.35.20:190][369]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2026.11.16-23.35.20:192][369]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2026.11.16-23.35.20:198][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.35.20:252][370]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.11.16-23.35.31:158][700]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2439.123779
+[2026.11.16-23.35.32:158][703]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.16-23.35.32:158][703]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2439.790771, Update Interval: 335.453979
+[2026.11.16-23.36.03:437][727]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.36.03:441][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.36.03:442][727]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.36.03:446][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
+[2026.11.16-23.36.03:446][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003393s)
+[2026.11.16-23.36.03:459][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.11.16-23.36.03:462][727]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.36.03:463][727]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2026.11.16-23.36.03:464][727]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.36.03:464][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.36.03:464][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.36.03:464][727]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.36.03:464][727]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.36.03:464][727]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.36.03:467][727]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.36.03:484][727]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.36.03:484][727]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.36.03:484][727]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.36.03:484][727]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.36.03:484][727]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.11.16-23.36.03:484][727]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.11.16-23.36.03:488][727]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.11.16-23.36.03:488][727]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.11.16-23.36.03:488][727]LogInit: FAudioDevice initialized with ID 22.
+[2026.11.16-23.36.03:488][727]LogAudio: Display: Audio Device (ID: 22) registered with world 'Mapa_PI'.
+[2026.11.16-23.36.03:488][727]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.11.16-23.36.03:542][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.36.03:542][727]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.36.03:544][727]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.36.03
+[2026.11.16-23.36.03:544][727]LogWorld: Bringing up level for play took: 0.001389
+[2026.11.16-23.36.03:546][727]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2026.11.16-23.36.03:554][727]PIE: Server logged in
+[2026.11.16-23.36.03:556][727]PIE: Play in editor total start time 0.115 seconds.
+[2026.11.16-23.36.03:626][728]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.36.06:197][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.36.06:197][ 28]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.36.06:197][ 28]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.36.06:201][ 28]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.36.06:202][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.36.06:202][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.36.06:205][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.36.06:220][ 28]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.11.16-23.36.06:220][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2026.11.16-23.36.06:223][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2026.11.16-23.36.06:230][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.11.16-23.36.06:295][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2026.11.16-23.36.09:386][395]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.36.09:391][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.36.09:391][395]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.36.09:394][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003358s)
+[2026.11.16-23.36.09:394][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003385s)
+[2026.11.16-23.36.09:408][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.36.09:409][395]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.36.09:410][395]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2026.11.16-23.36.09:411][395]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.36.09:411][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.36.09:411][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.36.09:411][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.36.09:411][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.36.09:411][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.36.09:413][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.36.09:431][395]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.36.09:431][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.36.09:431][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.36.09:431][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.36.09:432][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.11.16-23.36.09:432][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.11.16-23.36.09:435][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.11.16-23.36.09:435][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.11.16-23.36.09:435][395]LogInit: FAudioDevice initialized with ID 23.
+[2026.11.16-23.36.09:435][395]LogAudio: Display: Audio Device (ID: 23) registered with world 'Mapa_PI'.
+[2026.11.16-23.36.09:435][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.11.16-23.36.09:472][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.36.09:472][395]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.36.09:474][395]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.36.09
+[2026.11.16-23.36.09:474][395]LogWorld: Bringing up level for play took: 0.001406
+[2026.11.16-23.36.09:476][395]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2026.11.16-23.36.09:484][395]PIE: Server logged in
+[2026.11.16-23.36.09:487][395]PIE: Play in editor total start time 0.096 seconds.
+[2026.11.16-23.36.09:558][396]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.36.12:208][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.36.12:208][706]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.36.12:208][706]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.36.12:212][706]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.36.12:212][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.36.12:213][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.36.12:215][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.36.12:230][706]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.11.16-23.36.12:230][706]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2026.11.16-23.36.12:232][706]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2026.11.16-23.36.12:237][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.36.12:291][707]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2026.11.16-23.36.18:904][458]Cmd: TRANSACTION UNDO
+[2026.11.16-23.36.18:904][458]LogEditorTransaction: Undo Move Elements
+[2026.11.16-23.36.22:349][814]Cmd: SELECT NONE
+[2026.11.16-23.36.24:805][ 95]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.36.24:811][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.36.24:811][ 95]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.36.24:814][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003520s)
+[2026.11.16-23.36.24:814][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003548s)
+[2026.11.16-23.36.24:829][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.16-23.36.24:831][ 95]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.36.24:832][ 95]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2026.11.16-23.36.24:833][ 95]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.36.24:833][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.36.24:833][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.36.24:833][ 95]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.36.24:833][ 95]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.36.24:833][ 95]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.36.24:835][ 95]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.36.24:852][ 95]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.36.24:852][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.36.24:852][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.36.24:852][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.36.24:852][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.11.16-23.36.24:852][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.11.16-23.36.24:855][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.11.16-23.36.24:855][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.11.16-23.36.24:855][ 95]LogInit: FAudioDevice initialized with ID 24.
+[2026.11.16-23.36.24:855][ 95]LogAudio: Display: Audio Device (ID: 24) registered with world 'Mapa_PI'.
+[2026.11.16-23.36.24:855][ 95]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.11.16-23.36.24:903][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.36.24:903][ 95]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.36.24:905][ 95]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.36.24
+[2026.11.16-23.36.24:905][ 95]LogWorld: Bringing up level for play took: 0.001316
+[2026.11.16-23.36.24:907][ 95]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2026.11.16-23.36.24:915][ 95]PIE: Server logged in
+[2026.11.16-23.36.24:915][ 95]PIE: Play in editor total start time 0.106 seconds.
+[2026.11.16-23.36.24:995][ 96]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.36.28:158][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.36.28:158][455]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.36.28:158][455]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.36.28:162][455]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.36.28:163][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.36.28:164][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.36.28:166][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.36.28:183][455]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.11.16-23.36.28:183][455]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2026.11.16-23.36.28:185][455]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2026.11.16-23.36.28:191][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.36.28:245][457]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2026.11.16-23.38.44:744][869]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.38.44:750][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.38.44:750][869]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.38.44:756][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004803s)
+[2026.11.16-23.38.44:756][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.004844s)
+[2026.11.16-23.38.44:770][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.11.16-23.38.44:772][869]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.38.44:774][869]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2026.11.16-23.38.44:775][869]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.38.44:775][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.38.44:775][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.38.44:775][869]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.38.44:775][869]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.38.44:775][869]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.38.44:777][869]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.38.44:798][869]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.38.44:798][869]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.38.44:798][869]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.38.44:798][869]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.38.44:798][869]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.11.16-23.38.44:798][869]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.11.16-23.38.44:801][869]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.11.16-23.38.44:801][869]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.11.16-23.38.44:801][869]LogInit: FAudioDevice initialized with ID 25.
+[2026.11.16-23.38.44:801][869]LogAudio: Display: Audio Device (ID: 25) registered with world 'Mapa_PI'.
+[2026.11.16-23.38.44:801][869]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.11.16-23.38.44:840][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.38.44:840][869]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.38.44:842][869]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.38.44
+[2026.11.16-23.38.44:842][869]LogWorld: Bringing up level for play took: 0.001420
+[2026.11.16-23.38.44:845][869]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.11.16-23.38.44:852][869]PIE: Server logged in
+[2026.11.16-23.38.44:854][869]PIE: Play in editor total start time 0.104 seconds.
+[2026.11.16-23.38.44:924][870]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.38.53:013][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.38.53:013][826]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.38.53:013][826]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.38.53:018][826]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.38.53:019][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.38.53:019][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.38.53:021][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.38.53:037][826]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.11.16-23.38.53:037][826]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2026.11.16-23.38.53:039][826]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2026.11.16-23.38.53:044][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.11.16-23.38.53:101][827]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.11.16-23.39.38:748][122]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2026.11.16-23.39.38:748][122]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2026.11.16-23.39.48:692][241]LogWindowsTextInputMethodSystem: Activated input method: Español (Argentina) - (Keyboard).
+[2026.11.16-23.39.48:692][241]LogWindowsTextInputMethodSystem: Activated input method: Español (Argentina) - (Keyboard).
+[2026.11.16-23.40.05:585][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.16-23.40.05:650][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.11.16-23.40.05:668][189]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.16-23.40.05:669][189]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PIDBA477794EE8A01E8BCCE792EFAC4DC6.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.16-23.40.05:675][189]LogFileHelpers: Saving map 'Mapa_PI' took 0.052
+[2026.11.16-23.40.05:681][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.479 ms (total: 703.835 ms)
+[2026.11.16-23.40.05:723][189]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.16-23.40.05:723][189]LogContentValidation: Enabled validators:
+[2026.11.16-23.40.05:723][189]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.16-23.40.05:723][189]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.16-23.40.05:723][189]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.16-23.40.05:723][189]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.16-23.40.05:723][189]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.16-23.40.05:723][189]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.16-23.40.05:723][189]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.16-23.41.39:093][743]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2807.074707
+[2026.11.16-23.41.40:094][746]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.16-23.41.40:094][746]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2807.741211, Update Interval: 347.295746
+[2026.11.16-23.44.41:376][360]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.44.41:380][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.44.41:380][360]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.44.41:384][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003776s)
+[2026.11.16-23.44.41:384][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003806s)
+[2026.11.16-23.44.41:400][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.11.16-23.44.41:403][360]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.44.41:405][360]LogPlayLevel: PIE: World Init took: (0.001624s)
+[2026.11.16-23.44.41:406][360]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.44.41:406][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.44.41:406][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.44.41:406][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.44.41:406][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.44.41:406][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.44.41:408][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.44.41:427][360]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.44.41:427][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.44.41:427][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.44.41:427][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.44.41:427][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2026.11.16-23.44.41:427][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2026.11.16-23.44.41:430][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2026.11.16-23.44.41:430][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2026.11.16-23.44.41:430][360]LogInit: FAudioDevice initialized with ID 26.
+[2026.11.16-23.44.41:430][360]LogAudio: Display: Audio Device (ID: 26) registered with world 'Mapa_PI'.
+[2026.11.16-23.44.41:430][360]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2026.11.16-23.44.41:480][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.44.41:480][360]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.44.41:482][360]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.44.41
+[2026.11.16-23.44.41:482][360]LogWorld: Bringing up level for play took: 0.001648
+[2026.11.16-23.44.41:485][360]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2026.11.16-23.44.41:492][360]PIE: Server logged in
+[2026.11.16-23.44.41:493][360]PIE: Play in editor total start time 0.114 seconds.
+[2026.11.16-23.44.41:564][361]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.44.45:317][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.44.45:318][801]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.44.45:318][801]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.44.45:321][801]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.44.45:322][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.44.45:323][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.44.45:325][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.44.45:340][801]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2026.11.16-23.44.45:340][801]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2026.11.16-23.44.45:342][801]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2026.11.16-23.44.45:348][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.44.45:406][802]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.11.16-23.45.29:274][761]Cmd: TRANSACTION UNDO
+[2026.11.16-23.45.29:274][761]LogEditorTransaction: Undo Move Elements
+[2026.11.16-23.46.35:609][196]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.46.35:614][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.46.35:614][196]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.35:618][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003963s)
+[2026.11.16-23.46.35:618][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003994s)
+[2026.11.16-23.46.35:632][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.46.35:636][196]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.46.35:637][196]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2026.11.16-23.46.35:638][196]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.46.35:638][196]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.46.35:638][196]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.46.35:638][196]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.46.35:638][196]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.46.35:638][196]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.46.35:640][196]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.46.35:659][196]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.46.35:659][196]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.46.35:659][196]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.46.35:659][196]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.46.35:659][196]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2026.11.16-23.46.35:659][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2026.11.16-23.46.35:661][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2026.11.16-23.46.35:661][196]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2026.11.16-23.46.35:661][196]LogInit: FAudioDevice initialized with ID 27.
+[2026.11.16-23.46.35:661][196]LogAudio: Display: Audio Device (ID: 27) registered with world 'Mapa_PI'.
+[2026.11.16-23.46.35:661][196]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2026.11.16-23.46.35:705][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.35:706][196]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.46.35:707][196]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.46.35
+[2026.11.16-23.46.35:708][196]LogWorld: Bringing up level for play took: 0.001518
+[2026.11.16-23.46.35:710][196]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2026.11.16-23.46.35:717][196]PIE: Server logged in
+[2026.11.16-23.46.35:720][196]PIE: Play in editor total start time 0.106 seconds.
+[2026.11.16-23.46.35:792][197]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.46.38:481][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.38:481][493]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.38:481][493]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.46.38:488][493]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.46.38:489][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.38:490][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.46.38:492][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.38:509][493]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2026.11.16-23.46.38:509][493]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2026.11.16-23.46.38:511][493]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2026.11.16-23.46.38:517][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.11.16-23.46.38:571][494]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2026.11.16-23.46.41:666][853]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.46.41:671][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.46.41:671][853]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.41:675][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003733s)
+[2026.11.16-23.46.41:675][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003762s)
+[2026.11.16-23.46.41:688][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.16-23.46.41:691][853]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.46.41:692][853]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2026.11.16-23.46.41:692][853]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2026.11.16-23.46.41:692][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.46.41:692][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.46.41:692][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.46.41:692][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.46.41:692][853]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.46.41:692][853]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.46.41:693][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.46.41:693][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.46.41:693][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.46.41:693][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.46.41:693][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.46.41:695][853]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.46.41:712][853]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.46.41:712][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.46.41:712][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.46.41:712][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.46.41:713][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2026.11.16-23.46.41:713][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2026.11.16-23.46.41:716][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2026.11.16-23.46.41:716][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2026.11.16-23.46.41:716][853]LogInit: FAudioDevice initialized with ID 28.
+[2026.11.16-23.46.41:716][853]LogAudio: Display: Audio Device (ID: 28) registered with world 'Mapa_PI'.
+[2026.11.16-23.46.41:716][853]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2026.11.16-23.46.41:770][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.41:770][853]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.46.41:773][853]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.46.41
+[2026.11.16-23.46.41:773][853]LogWorld: Bringing up level for play took: 0.001783
+[2026.11.16-23.46.41:776][853]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2026.11.16-23.46.41:784][853]PIE: Server logged in
+[2026.11.16-23.46.41:785][853]PIE: Play in editor total start time 0.114 seconds.
+[2026.11.16-23.46.41:856][854]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.46.43:891][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.43:891][ 90]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.43:891][ 90]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.46.43:899][ 90]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.46.43:899][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.43:900][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.46.43:903][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.43:918][ 90]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2026.11.16-23.46.43:918][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=4
+[2026.11.16-23.46.43:921][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=2
+[2026.11.16-23.46.43:926][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.16-23.46.43:981][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.11.16-23.46.50:323][837]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.46.50:328][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.46.50:328][837]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.50:332][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003824s)
+[2026.11.16-23.46.50:332][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003853s)
+[2026.11.16-23.46.50:346][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.16-23.46.50:348][837]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.46.50:349][837]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2026.11.16-23.46.50:350][837]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.46.50:350][837]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.46.50:350][837]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.46.50:350][837]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.46.50:350][837]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.46.50:350][837]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.46.50:352][837]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.46.50:370][837]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.46.50:370][837]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.46.50:370][837]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.46.50:370][837]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.46.50:370][837]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2026.11.16-23.46.50:370][837]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2026.11.16-23.46.50:372][837]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2026.11.16-23.46.50:372][837]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2026.11.16-23.46.50:372][837]LogInit: FAudioDevice initialized with ID 29.
+[2026.11.16-23.46.50:372][837]LogAudio: Display: Audio Device (ID: 29) registered with world 'Mapa_PI'.
+[2026.11.16-23.46.50:372][837]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2026.11.16-23.46.50:401][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.50:401][837]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.46.50:403][837]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.46.50
+[2026.11.16-23.46.50:403][837]LogWorld: Bringing up level for play took: 0.001559
+[2026.11.16-23.46.50:406][837]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.11.16-23.46.50:413][837]PIE: Server logged in
+[2026.11.16-23.46.50:415][837]PIE: Play in editor total start time 0.087 seconds.
+[2026.11.16-23.46.50:483][838]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.46.51:932][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.51:932][  2]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.51:932][  2]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.46.51:939][  2]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.46.51:939][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.51:941][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.46.51:943][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.51:959][  2]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2026.11.16-23.46.51:959][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=4
+[2026.11.16-23.46.51:962][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=2
+[2026.11.16-23.46.51:969][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.11.16-23.46.52:024][  3]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.11.16-23.46.54:490][294]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.46.54:494][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.46.54:494][294]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.54:498][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003755s)
+[2026.11.16-23.46.54:498][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003783s)
+[2026.11.16-23.46.54:512][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.11.16-23.46.54:513][294]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.46.54:515][294]LogPlayLevel: PIE: World Init took: (0.001347s)
+[2026.11.16-23.46.54:515][294]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.46.54:515][294]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.46.54:515][294]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.46.54:515][294]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.46.54:515][294]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.46.54:515][294]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.46.54:518][294]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.46.54:535][294]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.46.54:535][294]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.46.54:535][294]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.46.54:535][294]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.46.54:536][294]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2026.11.16-23.46.54:536][294]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2026.11.16-23.46.54:538][294]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2026.11.16-23.46.54:538][294]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2026.11.16-23.46.54:538][294]LogInit: FAudioDevice initialized with ID 30.
+[2026.11.16-23.46.54:538][294]LogAudio: Display: Audio Device (ID: 30) registered with world 'Mapa_PI'.
+[2026.11.16-23.46.54:539][294]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2026.11.16-23.46.54:584][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.54:585][294]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.46.54:586][294]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.46.54
+[2026.11.16-23.46.54:586][294]LogWorld: Bringing up level for play took: 0.001535
+[2026.11.16-23.46.54:589][294]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.11.16-23.46.54:597][294]PIE: Server logged in
+[2026.11.16-23.46.54:598][294]PIE: Play in editor total start time 0.104 seconds.
+[2026.11.16-23.46.54:669][295]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.46.57:142][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.46.57:142][584]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.46.57:142][584]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.46.57:150][584]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.46.57:151][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.57:151][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.46.57:153][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.46.57:170][584]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2026.11.16-23.46.57:170][584]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=4
+[2026.11.16-23.46.57:172][584]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30, StreamState=2
+[2026.11.16-23.46.57:178][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.16-23.46.57:233][585]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.11.16-23.47.13:766][406]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.47.13:771][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.47.13:771][406]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.13:774][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003751s)
+[2026.11.16-23.47.13:774][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003778s)
+[2026.11.16-23.47.13:789][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.16-23.47.13:790][406]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.47.13:792][406]LogPlayLevel: PIE: World Init took: (0.001417s)
+[2026.11.16-23.47.13:792][406]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.47.13:792][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.47.13:792][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.47.13:792][406]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.47.13:792][406]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.47.13:792][406]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.47.13:794][406]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.47.13:812][406]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.47.13:812][406]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.47.13:812][406]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.47.13:812][406]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.47.13:812][406]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2026.11.16-23.47.13:812][406]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2026.11.16-23.47.13:815][406]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2026.11.16-23.47.13:815][406]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2026.11.16-23.47.13:815][406]LogInit: FAudioDevice initialized with ID 31.
+[2026.11.16-23.47.13:815][406]LogAudio: Display: Audio Device (ID: 31) registered with world 'Mapa_PI'.
+[2026.11.16-23.47.13:815][406]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2026.11.16-23.47.13:864][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.13:864][406]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.47.13:866][406]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.47.13
+[2026.11.16-23.47.13:866][406]LogWorld: Bringing up level for play took: 0.001485
+[2026.11.16-23.47.13:869][406]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.11.16-23.47.13:877][406]PIE: Server logged in
+[2026.11.16-23.47.13:878][406]PIE: Play in editor total start time 0.108 seconds.
+[2026.11.16-23.47.13:949][407]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.47.16:673][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.16:673][715]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.16:673][715]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.47.16:681][715]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.47.16:681][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.16:682][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.47.16:684][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.16:701][715]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2026.11.16-23.47.16:701][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=4
+[2026.11.16-23.47.16:702][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31, StreamState=2
+[2026.11.16-23.47.16:708][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.47.16:762][716]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.11.16-23.47.22:121][326]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.47.22:126][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.47.22:126][326]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.22:130][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003725s)
+[2026.11.16-23.47.22:130][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003753s)
+[2026.11.16-23.47.22:144][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.16-23.47.22:146][326]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.47.22:147][326]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2026.11.16-23.47.22:148][326]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.47.22:148][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.47.22:148][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.47.22:148][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.47.22:148][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.47.22:148][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.47.22:150][326]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.47.22:168][326]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.47.22:168][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.47.22:168][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.47.22:168][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.47.22:168][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2026.11.16-23.47.22:168][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2026.11.16-23.47.22:171][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2026.11.16-23.47.22:171][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2026.11.16-23.47.22:171][326]LogInit: FAudioDevice initialized with ID 32.
+[2026.11.16-23.47.22:171][326]LogAudio: Display: Audio Device (ID: 32) registered with world 'Mapa_PI'.
+[2026.11.16-23.47.22:171][326]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2026.11.16-23.47.22:213][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.22:214][326]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.47.22:215][326]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.47.22
+[2026.11.16-23.47.22:216][326]LogWorld: Bringing up level for play took: 0.001716
+[2026.11.16-23.47.22:218][326]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.11.16-23.47.22:226][326]PIE: Server logged in
+[2026.11.16-23.47.22:228][326]PIE: Play in editor total start time 0.102 seconds.
+[2026.11.16-23.47.22:299][327]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.47.24:663][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.24:663][603]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.24:663][603]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.47.24:670][603]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.47.24:671][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.24:671][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.47.24:674][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.24:689][603]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2026.11.16-23.47.24:689][603]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=4
+[2026.11.16-23.47.24:692][603]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32, StreamState=2
+[2026.11.16-23.47.24:697][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.47.24:751][604]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.11.16-23.47.28:148][980]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.47.28:153][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.47.28:153][980]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.28:157][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004129s)
+[2026.11.16-23.47.28:157][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.004158s)
+[2026.11.16-23.47.28:171][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.16-23.47.28:173][980]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.47.28:175][980]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2026.11.16-23.47.28:175][980]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.47.28:175][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.47.28:175][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.47.28:175][980]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.47.28:175][980]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.47.28:175][980]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.47.28:177][980]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.47.28:195][980]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.47.28:195][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.47.28:195][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.47.28:195][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.47.28:195][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2026.11.16-23.47.28:195][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2026.11.16-23.47.28:198][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2026.11.16-23.47.28:198][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2026.11.16-23.47.28:198][980]LogInit: FAudioDevice initialized with ID 33.
+[2026.11.16-23.47.28:198][980]LogAudio: Display: Audio Device (ID: 33) registered with world 'Mapa_PI'.
+[2026.11.16-23.47.28:198][980]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2026.11.16-23.47.28:244][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.28:244][980]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.47.28:246][980]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.47.28
+[2026.11.16-23.47.28:246][980]LogWorld: Bringing up level for play took: 0.001578
+[2026.11.16-23.47.28:248][980]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.11.16-23.47.28:256][980]PIE: Server logged in
+[2026.11.16-23.47.28:258][980]PIE: Play in editor total start time 0.105 seconds.
+[2026.11.16-23.47.28:327][981]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.47.29:353][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.29:353][ 93]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.29:353][ 93]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.47.29:360][ 93]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.47.29:361][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.29:361][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.47.29:364][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.29:381][ 93]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2026.11.16-23.47.29:381][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=4
+[2026.11.16-23.47.29:384][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=2
+[2026.11.16-23.47.29:389][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.11.16-23.47.29:442][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.11.16-23.47.32:439][255]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.47.32:444][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.47.32:445][255]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.32:448][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003665s)
+[2026.11.16-23.47.32:448][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003693s)
+[2026.11.16-23.47.32:462][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.11.16-23.47.32:463][255]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.47.32:465][255]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2026.11.16-23.47.32:465][255]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.47.32:465][255]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.47.32:465][255]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.47.32:465][255]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.47.32:465][255]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.47.32:465][255]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.47.32:468][255]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.47.32:485][255]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.47.32:485][255]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.47.32:485][255]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.47.32:485][255]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.47.32:485][255]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2026.11.16-23.47.32:485][255]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2026.11.16-23.47.32:488][255]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2026.11.16-23.47.32:488][255]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2026.11.16-23.47.32:488][255]LogInit: FAudioDevice initialized with ID 34.
+[2026.11.16-23.47.32:488][255]LogAudio: Display: Audio Device (ID: 34) registered with world 'Mapa_PI'.
+[2026.11.16-23.47.32:488][255]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2026.11.16-23.47.32:542][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.32:543][255]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.47.32:544][255]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.47.32
+[2026.11.16-23.47.32:544][255]LogWorld: Bringing up level for play took: 0.001467
+[2026.11.16-23.47.32:547][255]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.11.16-23.47.32:555][255]PIE: Server logged in
+[2026.11.16-23.47.32:557][255]PIE: Play in editor total start time 0.113 seconds.
+[2026.11.16-23.47.32:639][256]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.47.35:174][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.35:174][551]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.35:174][551]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.47.35:178][551]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.47.35:179][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.35:179][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.47.35:182][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.35:197][551]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2026.11.16-23.47.35:197][551]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2026.11.16-23.47.35:199][551]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2026.11.16-23.47.35:206][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.47.35:260][552]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.11.16-23.47.38:822][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.16-23.47.38:886][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.11.16-23.47.38:902][957]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.16-23.47.38:902][957]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PIDDD5C33743F9CBB69475708EB4D2D0AE.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.16-23.47.38:908][957]LogFileHelpers: Saving map 'Mapa_PI' took 0.049
+[2026.11.16-23.47.38:915][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.069 ms (total: 795.904 ms)
+[2026.11.16-23.47.38:959][957]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.16-23.47.38:959][957]LogContentValidation: Enabled validators:
+[2026.11.16-23.47.38:959][957]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.16-23.47.38:959][957]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.16-23.47.38:959][957]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.16-23.47.38:959][957]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.16-23.47.38:959][957]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.16-23.47.38:959][957]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.16-23.47.38:959][957]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.16-23.47.39:720][ 35]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.47.39:724][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.47.39:724][ 35]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.39:728][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003752s)
+[2026.11.16-23.47.39:728][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003779s)
+[2026.11.16-23.47.39:742][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.16-23.47.39:743][ 35]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.47.39:744][ 35]LogPlayLevel: PIE: World Init took: (0.001364s)
+[2026.11.16-23.47.39:745][ 35]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.47.39:745][ 35]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.47.39:745][ 35]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.47.39:745][ 35]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.47.39:745][ 35]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.47.39:745][ 35]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.47.39:747][ 35]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.47.39:765][ 35]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.47.39:765][ 35]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.47.39:765][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.47.39:765][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.47.39:766][ 35]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2026.11.16-23.47.39:766][ 35]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2026.11.16-23.47.39:768][ 35]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2026.11.16-23.47.39:768][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2026.11.16-23.47.39:768][ 35]LogInit: FAudioDevice initialized with ID 35.
+[2026.11.16-23.47.39:768][ 35]LogAudio: Display: Audio Device (ID: 35) registered with world 'Mapa_PI'.
+[2026.11.16-23.47.39:768][ 35]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2026.11.16-23.47.39:824][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.39:824][ 35]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.47.39:826][ 35]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.47.39
+[2026.11.16-23.47.39:826][ 35]LogWorld: Bringing up level for play took: 0.001531
+[2026.11.16-23.47.39:829][ 35]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.11.16-23.47.39:836][ 35]PIE: Server logged in
+[2026.11.16-23.47.39:838][ 35]PIE: Play in editor total start time 0.115 seconds.
+[2026.11.16-23.47.39:908][ 36]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.47.42:324][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.42:324][313]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.42:324][313]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.47.42:330][313]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.47.42:331][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.42:331][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.47.42:335][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.47.42:350][313]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.16-23.47.42:350][313]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2026.11.16-23.47.42:350][313]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=4
+[2026.11.16-23.47.42:353][313]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35, StreamState=2
+[2026.11.16-23.47.42:359][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.47.42:413][314]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.11.16-23.47.58:483][109]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.47.58:488][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.47.58:488][109]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.47.58:491][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003693s)
+[2026.11.16-23.47.58:491][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003720s)
+[2026.11.16-23.47.58:506][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.16-23.47.58:507][109]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.47.58:509][109]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2026.11.16-23.47.58:509][109]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.47.58:509][109]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.47.58:509][109]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.47.58:509][109]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.47.58:509][109]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.47.58:509][109]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.47.58:512][109]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.47.58:530][109]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.47.58:530][109]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.47.58:530][109]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.47.58:530][109]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.47.58:530][109]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2026.11.16-23.47.58:530][109]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2026.11.16-23.47.58:532][109]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2026.11.16-23.47.58:532][109]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2026.11.16-23.47.58:532][109]LogInit: FAudioDevice initialized with ID 36.
+[2026.11.16-23.47.58:532][109]LogAudio: Display: Audio Device (ID: 36) registered with world 'Mapa_PI'.
+[2026.11.16-23.47.58:532][109]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2026.11.16-23.47.58:587][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.47.58:588][109]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.47.58:589][109]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.47.58
+[2026.11.16-23.47.58:589][109]LogWorld: Bringing up level for play took: 0.001531
+[2026.11.16-23.47.58:592][109]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.11.16-23.47.58:599][109]PIE: Server logged in
+[2026.11.16-23.47.58:601][109]PIE: Play in editor total start time 0.114 seconds.
+[2026.11.16-23.47.58:672][110]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.48.00:735][352]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3188.733398
+[2026.11.16-23.48.00:952][378]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.16-23.48.00:952][378]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3188.940918, Update Interval: 340.555420
+[2026.11.16-23.48.05:035][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.48.05:035][865]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.48.05:035][865]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.48.05:041][865]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.48.05:042][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.48.05:042][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.48.05:046][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.48.05:061][865]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2026.11.16-23.48.05:061][865]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=4
+[2026.11.16-23.48.05:064][865]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36, StreamState=2
+[2026.11.16-23.48.05:070][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.48.05:122][866]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.11.16-23.48.22:024][811]Cmd: TRANSACTION UNDO
+[2026.11.16-23.48.22:024][811]LogEditorTransaction: Undo Scale Elements
+[2026.11.16-23.48.22:842][851]Cmd: TRANSACTION UNDO
+[2026.11.16-23.48.22:842][851]LogEditorTransaction: Undo Scale Elements
+[2026.11.16-23.48.29:076][562]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.48.29:080][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.48.29:080][562]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.48.29:084][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003659s)
+[2026.11.16-23.48.29:084][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003686s)
+[2026.11.16-23.48.29:099][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.16-23.48.29:101][562]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.48.29:103][562]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2026.11.16-23.48.29:103][562]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.48.29:103][562]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.48.29:103][562]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.48.29:103][562]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.48.29:103][562]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.48.29:103][562]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.48.29:105][562]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.48.29:123][562]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.48.29:123][562]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.48.29:123][562]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.48.29:123][562]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.48.29:123][562]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2026.11.16-23.48.29:123][562]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2026.11.16-23.48.29:125][562]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2026.11.16-23.48.29:125][562]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2026.11.16-23.48.29:125][562]LogInit: FAudioDevice initialized with ID 37.
+[2026.11.16-23.48.29:125][562]LogAudio: Display: Audio Device (ID: 37) registered with world 'Mapa_PI'.
+[2026.11.16-23.48.29:125][562]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2026.11.16-23.48.29:164][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.48.29:165][562]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.48.29:166][562]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.48.29
+[2026.11.16-23.48.29:166][562]LogWorld: Bringing up level for play took: 0.001415
+[2026.11.16-23.48.29:168][562]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.11.16-23.48.29:175][562]PIE: Server logged in
+[2026.11.16-23.48.29:178][562]PIE: Play in editor total start time 0.098 seconds.
+[2026.11.16-23.48.29:250][563]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.48.34:036][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.48.34:036][104]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.48.34:036][104]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.48.34:044][104]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.48.34:044][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.48.34:045][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.48.34:047][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.48.34:063][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2026.11.16-23.48.34:063][104]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=4
+[2026.11.16-23.48.34:065][104]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37, StreamState=2
+[2026.11.16-23.48.34:070][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.11.16-23.48.34:123][105]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.11.16-23.48.41:974][977]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.48.41:979][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.48.41:979][977]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.48.41:984][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003817s)
+[2026.11.16-23.48.41:984][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003845s)
+[2026.11.16-23.48.41:998][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.16-23.48.41:999][977]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.48.42:001][977]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2026.11.16-23.48.42:001][977]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.48.42:001][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.48.42:001][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.48.42:001][977]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.48.42:001][977]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.48.42:001][977]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.48.42:003][977]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.48.42:021][977]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.48.42:021][977]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.48.42:021][977]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.48.42:021][977]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.48.42:021][977]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2026.11.16-23.48.42:021][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2026.11.16-23.48.42:024][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2026.11.16-23.48.42:024][977]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2026.11.16-23.48.42:024][977]LogInit: FAudioDevice initialized with ID 38.
+[2026.11.16-23.48.42:024][977]LogAudio: Display: Audio Device (ID: 38) registered with world 'Mapa_PI'.
+[2026.11.16-23.48.42:024][977]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2026.11.16-23.48.42:078][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.48.42:078][977]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.48.42:080][977]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.48.42
+[2026.11.16-23.48.42:080][977]LogWorld: Bringing up level for play took: 0.001545
+[2026.11.16-23.48.42:083][977]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2026.11.16-23.48.42:091][977]PIE: Server logged in
+[2026.11.16-23.48.42:092][977]PIE: Play in editor total start time 0.113 seconds.
+[2026.11.16-23.48.42:162][978]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.48.45:456][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.48.45:456][364]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.48.45:456][364]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.48.45:460][364]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.48.45:461][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.48.45:461][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.48.45:464][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.48.45:479][364]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2026.11.16-23.48.45:479][364]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=4
+[2026.11.16-23.48.45:481][364]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=2
+[2026.11.16-23.48.45:487][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.16-23.48.45:548][365]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2026.11.16-23.48.57:830][784]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.16-23.48.57:834][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.16-23.48.57:834][784]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.48.57:838][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003752s)
+[2026.11.16-23.48.57:838][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.003781s)
+[2026.11.16-23.48.57:852][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.16-23.48.57:854][784]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.16-23.48.57:856][784]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2026.11.16-23.48.57:856][784]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.16-23.48.57:856][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.16-23.48.57:856][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.16-23.48.57:856][784]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.16-23.48.57:856][784]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.16-23.48.57:856][784]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.16-23.48.57:858][784]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.16-23.48.57:876][784]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.16-23.48.57:876][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.16-23.48.57:876][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.16-23.48.57:876][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.16-23.48.57:876][784]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2026.11.16-23.48.57:876][784]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2026.11.16-23.48.57:879][784]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2026.11.16-23.48.57:879][784]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2026.11.16-23.48.57:879][784]LogInit: FAudioDevice initialized with ID 39.
+[2026.11.16-23.48.57:879][784]LogAudio: Display: Audio Device (ID: 39) registered with world 'Mapa_PI'.
+[2026.11.16-23.48.57:879][784]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2026.11.16-23.48.57:925][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.48.57:925][784]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.16-23.48.57:927][784]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.16-20.48.57
+[2026.11.16-23.48.57:927][784]LogWorld: Bringing up level for play took: 0.001465
+[2026.11.16-23.48.57:929][784]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2026.11.16-23.48.57:936][784]PIE: Server logged in
+[2026.11.16-23.48.57:937][784]PIE: Play in editor total start time 0.104 seconds.
+[2026.11.16-23.48.58:019][785]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.16-23.49.06:007][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.16-23.49.06:007][715]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.16-23.49.06:007][715]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.16-23.49.06:014][715]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.16-23.49.06:015][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.49.06:016][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.16-23.49.06:018][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.16-23.49.06:032][715]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2026.11.16-23.49.06:033][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=4
+[2026.11.16-23.49.06:034][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39, StreamState=2
+[2026.11.16-23.49.06:041][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.16-23.49.06:093][716]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.11.16-23.49.07:091][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.16-23.49.07:151][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.11.16-23.49.07:168][832]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.16-23.49.07:168][832]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI1D158F6A4B19F8894607A39E1B790D7A.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.16-23.49.07:174][832]LogFileHelpers: Saving map 'Mapa_PI' took 0.051
+[2026.11.16-23.49.07:180][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.268 ms (total: 884.173 ms)
+[2026.11.16-23.49.07:223][832]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.16-23.49.07:223][832]LogContentValidation: Enabled validators:
+[2026.11.16-23.49.07:223][832]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.16-23.49.07:223][832]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.16-23.49.07:223][832]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.16-23.49.07:223][832]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.16-23.49.07:223][832]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.16-23.49.07:223][832]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.16-23.49.07:223][832]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
