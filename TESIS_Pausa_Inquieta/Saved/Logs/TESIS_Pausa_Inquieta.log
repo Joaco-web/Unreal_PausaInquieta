@@ -1743,3 +1743,582 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.11.21-21.56.58:352][497]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
 [2026.11.21-21.56.58:360][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
 [2026.11.21-21.56.58:412][499]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2026.11.21-21.57.36:362][ 35]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1332.114868
+[2026.11.21-21.57.37:362][ 38]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.21-21.57.37:362][ 38]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1332.781494, Update Interval: 302.563568
+[2026.11.21-21.59.39:212][558]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.21-21.59.39:217][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.21-21.59.39:217][558]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-21.59.39:238][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020555s)
+[2026.11.21-21.59.39:238][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.020588s)
+[2026.11.21-21.59.39:258][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.11.21-21.59.39:259][558]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.21-21.59.39:260][558]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2026.11.21-21.59.39:261][558]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.21-21.59.39:261][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.21-21.59.39:261][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.21-21.59.39:261][558]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.21-21.59.39:261][558]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.21-21.59.39:261][558]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.21-21.59.39:263][558]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.21-21.59.39:282][558]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (DAEWOO PRIX)
+[2026.11.21-21.59.39:282][558]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.21-21.59.39:282][558]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.21-21.59.39:282][558]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.21-21.59.39:282][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.11.21-21.59.39:282][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.11.21-21.59.39:285][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.11.21-21.59.39:285][558]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.11.21-21.59.39:285][558]LogInit: FAudioDevice initialized with ID 7.
+[2026.11.21-21.59.39:285][558]LogAudio: Display: Audio Device (ID: 7) registered with world 'Mapa_PI'.
+[2026.11.21-21.59.39:285][558]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.11.21-21.59.39:340][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-21.59.39:340][558]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.21-21.59.39:349][558]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.21-18.59.39
+[2026.11.21-21.59.39:349][558]LogWorld: Bringing up level for play took: 0.008454
+[2026.11.21-21.59.39:351][558]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2026.11.21-21.59.39:359][558]PIE: Server logged in
+[2026.11.21-21.59.39:360][558]PIE: Play in editor total start time 0.143 seconds.
+[2026.11.21-21.59.39:441][559]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.21-22.00.18:244][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.00.18:245][204]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.00.18:245][204]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.21-22.00.18:250][204]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.00.18:252][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.00.18:253][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.21-22.00.18:258][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.00.18:280][204]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.11.21-22.00.18:280][204]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.11.21-22.00.18:282][204]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.11.21-22.00.18:291][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.11.21-22.00.18:317][206]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2026.11.21-22.03.04:519][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1660.271606
+[2026.11.21-22.03.05:520][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.21-22.03.05:520][883]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1660.938477, Update Interval: 305.152740
+[2026.11.21-22.07.12:410][104]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.11.21-22.07.12:420][104]LogContentBrowser: Creating deferred item: NewFolder
+[2026.11.21-22.07.12:428][105]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.11.21-22.07.13:279][208]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2026.11.21-22.07.13:279][208]LogContentBrowser: End creating deferred item NewFolder
+[2026.11.21-22.07.21:192][143]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.11.21-22.07.21:201][143]LogContentBrowser: Creating deferred item: NewFolder
+[2026.11.21-22.07.21:216][145]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.11.21-22.07.22:062][247]LogContentBrowser: Attempting asset rename: NewFolder -> Interfaces
+[2026.11.21-22.07.22:062][247]LogContentBrowser: End creating deferred item NewFolder
+[2026.11.21-22.07.24:124][483]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.11.21-22.07.24:134][483]LogContentBrowser: Creating deferred item: NewFolder
+[2026.11.21-22.07.24:143][484]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.11.21-22.07.24:994][587]LogContentBrowser: Attempting asset rename: NewFolder -> Interactables
+[2026.11.21-22.07.24:994][587]LogContentBrowser: End creating deferred item NewFolder
+[2026.11.21-22.08.13:899][356]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2026.11.21-22.08.13:908][356]LogContentBrowser: Creating deferred item: NewInterface
+[2026.11.21-22.08.13:923][358]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2026.11.21-22.08.17:818][826]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Interact
+[2026.11.21-22.08.17:823][826]LogContentBrowser: End creating deferred item NewInterface
+[2026.11.21-22.08.19:096][968]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PI_Contenido/Blueprints/Interfaces/BPI_Interact.BPI_Interact
+[2026.11.21-22.08.19:097][968]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.11.21-22.08.25:743][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.11.21-22.08.27:248][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.08.27:279][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PI_Contenido/Blueprints/Interfaces/BPI_Interact] ([2] browsable assets)...
+[2026.11.21-22.08.27:279][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/PI_Contenido/Blueprints/Interfaces/BPI_Interact]
+[2026.11.21-22.08.27:287][905]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Blueprints/Interfaces/BPI_Interact
+[2026.11.21-22.08.27:287][905]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/BPI_InteractFEAEFD9C47F510C6A752D5BBED27911C.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Blueprints/Interfaces/BPI_Interact.uasset'
+[2026.11.21-22.08.27:297][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.391 ms (total: 934.319 ms)
+[2026.11.21-22.08.27:345][905]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.21-22.08.27:345][905]LogContentValidation: Enabled validators:
+[2026.11.21-22.08.27:345][905]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.08.27:345][905]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.08.27:345][905]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.08.27:345][905]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.08.27:345][905]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.08.27:345][905]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.08.27:345][905]AssetCheck: /Game/PI_Contenido/Blueprints/Interfaces/BPI_Interact Validating asset
+[2026.11.21-22.08.27:356][905]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.21-22.08.48:651][419]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2004.396240
+[2026.11.21-22.08.48:851][443]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.21-22.08.48:851][443]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2004.587646, Update Interval: 354.565277
+[2026.11.21-22.08.56:690][836]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.11.21-22.08.56:696][836]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.11.21-22.08.56:706][836]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.11.21-22.08.56:721][838]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.11.21-22.08.58:408][ 41]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_InteractableBase
+[2026.11.21-22.08.58:414][ 41]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.11.21-22.09.05:202][841]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase.BP_InteractableBase
+[2026.11.21-22.09.05:202][841]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.11.21-22.09.47:768][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.11.21-22.09.47:770][781]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PI_Contenido/Mapa_PI' took 0.042
+[2026.11.21-22.09.47:771][781]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase] ([2] browsable assets)...
+[2026.11.21-22.09.47:771][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase]
+[2026.11.21-22.09.47:779][781]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase_Auto2
+[2026.11.21-22.09.47:780][781]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/BP_InteractableBase_Auto250DD174B4DCA9A4822F65594422F251B.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Autosaves/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase_Auto2.uasset'
+[2026.11.21-22.09.47:780][781]LogFileHelpers: Auto-saving content packages took 0.010
+[2026.11.21-22.10.42:712][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.11.21-22.10.54:533][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.11.21-22.10.56:053][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.10.56:114][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase] ([2] browsable assets)...
+[2026.11.21-22.10.56:114][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase]
+[2026.11.21-22.10.56:123][898]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase
+[2026.11.21-22.10.56:123][898]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/BP_InteractableBase7E22D9814674C1A79315FB8AE87991F9.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Blueprints/Interactables/BP_InteractableBase.uasset'
+[2026.11.21-22.10.56:133][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.001 ms (total: 1.01 sec)
+[2026.11.21-22.10.56:179][898]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.21-22.10.56:179][898]LogContentValidation: Enabled validators:
+[2026.11.21-22.10.56:179][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.10.56:179][898]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.10.56:179][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.10.56:179][898]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.10.56:179][898]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.10.56:179][898]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.10.56:179][898]AssetCheck: /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase Validating asset
+[2026.11.21-22.10.56:192][898]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.21-22.11.05:864][ 33]LogContentBrowser: Deferred new asset file creation: BP_InteractableBase_Child
+[2026.11.21-22.11.05:904][ 33]LogContentBrowser: Creating deferred item: BP_InteractableBase_Child
+[2026.11.21-22.11.05:912][ 34]LogContentBrowser: Renaming the item being created (Deferred Item: BP_InteractableBase_Child).
+[2026.11.21-22.11.11:364][689]LogContentBrowser: Attempting asset rename: BP_InteractableBase_Child -> BP_InteractableLightBall
+[2026.11.21-22.11.11:370][689]LogContentBrowser: End creating deferred item BP_InteractableBase_Child
+[2026.11.21-22.11.12:639][828]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall
+[2026.11.21-22.11.12:640][828]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.11.21-22.11.44:343][511]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2026.11.21-22.11.44:344][511]LogStaticMesh: Display: Building static mesh 1x1x1_Box_Pivot_-XYZ (Required Memory Estimate: 0.024887 MB)...
+[2026.11.21-22.11.44:345][511]LogStaticMesh: Built static mesh [0.00s] /Engine/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.1x1x1_Box_Pivot_-XYZ
+[2026.11.21-22.11.44:352][511]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.11.21-22.12.42:072][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.11.21-22.13.30:165][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.11.21-22.13.36:081][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.11.21-22.13.41:398][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.13.41:443][348]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall] ([2] browsable assets)...
+[2026.11.21-22.13.41:522][348]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall]
+[2026.11.21-22.13.41:522][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall]
+[2026.11.21-22.13.41:531][348]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall
+[2026.11.21-22.13.41:531][348]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/BP_InteractableLightBallCDB6FF6D4C882CB7A2E543B7B4ADCF7E.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.uasset'
+[2026.11.21-22.13.41:539][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.812 ms (total: 1.15 sec)
+[2026.11.21-22.13.41:592][348]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.21-22.13.41:592][348]LogContentValidation: Enabled validators:
+[2026.11.21-22.13.41:592][348]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.13.41:592][348]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.13.41:592][348]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.13.41:592][348]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.13.41:592][348]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.13.41:592][348]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.13.41:592][348]AssetCheck: /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall Validating asset
+[2026.11.21-22.13.41:605][348]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.21-22.14.09:385][638]LogContentBrowser: Deferred new asset file creation: IA_Crouch1
+[2026.11.21-22.14.09:413][638]LogContentBrowser: Creating deferred item: IA_Crouch1
+[2026.11.21-22.14.09:428][639]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Crouch1).
+[2026.11.21-22.14.11:280][861]LogContentBrowser: Attempting asset rename: IA_Crouch1 -> IA_Interact
+[2026.11.21-22.14.11:282][861]LogContentBrowser: End creating deferred item IA_Crouch1
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: ================================================
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Total job queries 530, among them cache hits 84 (15.85%), DDC hits 370 (69.81%), Duplicates 70 (13.21%)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Tracking 376 distinct input hashes that result in 278 distinct outputs (73.94%)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: RAM used: 3.57 MiB of 1.60 GiB budget. Usage: 0.22%
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Shaders Compiled: 6
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Average time worker was idle: 1954.00 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.09 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Job execution time: average 0.66 s, max 1.04 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Job life time (pending + execution): average 0.70 s, max 1.06
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Shader code size: total 50.898 KiB, numShaders 6, average 8.482 KiB, min 5.43 KiB, max 11.324 KiB
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.76 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Average processing rate: 3.41 jobs/sec
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Total thread time: 2.858 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Total thread preprocess time: 5.581 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Percentage time preprocessing: 195.26%
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Effective parallelization: 1.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.203015
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.84 sec, max 0.84 sec, min 0.84 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.37 sec, max 0.39 sec, min 0.36 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 39.11% of total time (compiled    3 times, average 0.37 sec, max 0.39 sec, min 0.36 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 29.39% of total time (compiled    1 times, average 0.84 sec, max 0.84 sec, min 0.84 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 23.29% of total time (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.22% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: === Material stats ===
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Materials Translated:    152
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Material Translation Only: 0.04 s (45%)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: Material Cache Hits: 31 (20%)
+[2026.11.21-22.14.27:859][821]LogShaderCompilers: Display: ================================================
+[2026.11.21-22.15.25:411][693]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2401.142090
+[2026.11.21-22.15.25:628][719]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.21-22.15.25:628][719]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2401.351562, Update Interval: 326.697601
+[2026.11.21-22.17.24:233][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.11.21-22.17.51:845][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.11.21-22.17.54:376][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.11.21-22.17.54:384][913]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.17.54:440][913]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.11.21-22.17.54:627][913]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.11.21-22.17.54:627][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.11.21-22.17.54:648][913]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.11.21-22.17.54:648][913]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/BP_FirstPersonCharacter21E43D8F4F93B7B6C3449A9F5181418C.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.11.21-22.17.54:649][913]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2026.11.21-22.17.54:650][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2026.11.21-22.17.54:650][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/Input/IMC_Default.uasset" SILENT=true
+[2026.11.21-22.17.54:654][913]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2026.11.21-22.17.54:655][913]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/IMC_Default1AAE25F44EE0476C24A5979772F6CFF0.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/Input/IMC_Default.uasset'
+[2026.11.21-22.17.54:656][913]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Interact] ([1] browsable assets)...
+[2026.11.21-22.17.54:656][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Interact]
+[2026.11.21-22.17.54:660][913]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Interact
+[2026.11.21-22.17.54:660][913]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/IA_InteractE88144AF46401FED4D70B78EB6BE7A8E.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/Input/Actions/IA_Interact.uasset'
+[2026.11.21-22.17.54:669][913]LogFileHelpers: InternalPromptForCheckoutAndSave took 285.998 ms (total: 1.44 sec)
+[2026.11.21-22.17.54:704][913]LogContentValidation: Display: Starting to validate 3 assets
+[2026.11.21-22.17.54:704][913]LogContentValidation: Enabled validators:
+[2026.11.21-22.17.54:704][913]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.17.54:704][913]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.17.54:704][913]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.17.54:704][913]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.17.54:704][913]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.17.54:704][913]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.17.54:704][913]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.11.21-22.17.54:704][913]AssetCheck: /Game/Input/IMC_Default Validating asset
+[2026.11.21-22.17.54:705][913]AssetCheck: /Game/Input/Actions/IA_Interact Validating asset
+[2026.11.21-22.17.54:719][913]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.21-22.18.05:830][217]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.21-22.18.05:834][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.21-22.18.05:866][217]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.18.05:887][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021014s)
+[2026.11.21-22.18.05:887][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.021055s)
+[2026.11.21-22.18.05:909][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.11.21-22.18.05:911][217]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.21-22.18.05:912][217]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2026.11.21-22.18.05:913][217]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.21-22.18.05:913][217]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.21-22.18.05:913][217]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.21-22.18.05:913][217]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.21-22.18.05:913][217]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.21-22.18.05:913][217]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.21-22.18.05:915][217]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.21-22.18.05:933][217]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (DAEWOO PRIX)
+[2026.11.21-22.18.05:934][217]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.21-22.18.05:934][217]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.21-22.18.05:934][217]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.21-22.18.05:934][217]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.11.21-22.18.05:934][217]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.11.21-22.18.05:937][217]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.11.21-22.18.05:937][217]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.11.21-22.18.05:937][217]LogInit: FAudioDevice initialized with ID 8.
+[2026.11.21-22.18.05:937][217]LogAudio: Display: Audio Device (ID: 8) registered with world 'Mapa_PI'.
+[2026.11.21-22.18.05:937][217]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.11.21-22.18.05:966][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.18.05:966][217]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.21-22.18.05:975][217]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.21-19.18.05
+[2026.11.21-22.18.05:975][217]LogWorld: Bringing up level for play took: 0.008701
+[2026.11.21-22.18.05:977][217]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.11.21-22.18.05:986][217]PIE: Server logged in
+[2026.11.21-22.18.05:988][217]PIE: Play in editor total start time 0.153 seconds.
+[2026.11.21-22.18.06:057][218]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.21-22.18.14:457][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.18.14:457][210]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.18.14:457][210]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.21-22.18.14:462][210]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.18.14:464][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.18.14:465][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.21-22.18.14:470][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.18.14:494][210]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.11.21-22.18.14:494][210]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.11.21-22.18.14:496][210]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.11.21-22.18.14:504][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.11.21-22.18.14:529][211]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.11.21-22.19.04:519][483]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall_C
+[2026.11.21-22.19.04:519][483]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall_C
+[2026.11.21-22.19.04:521][483]LogActorFactory: Actor Factory spawned Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall as actor: BP_InteractableLightBall_C /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.BP_InteractableLightBall_C_0
+[2026.11.21-22.19.04:522][483]LogActorFactory: Actor Factory spawned Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall as actor: BP_InteractableLightBall_C /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.BP_InteractableLightBall_C_0
+[2026.11.21-22.19.04:526][483]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.11.21-22.19.05:103][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.11.21-22.19.05:105][536]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2026.11.21-22.19.05:109][536]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall_C
+[2026.11.21-22.19.05:109][536]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall_C
+[2026.11.21-22.19.05:111][536]LogActorFactory: Actor Factory spawned Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall as actor: BP_InteractableLightBall_C /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.BP_InteractableLightBall_C_1
+[2026.11.21-22.19.05:112][536]LogActorFactory: Actor Factory spawned Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall as actor: BP_InteractableLightBall_C /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.BP_InteractableLightBall_C_1
+[2026.11.21-22.19.07:957][844]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.21-22.19.07:964][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.21-22.19.07:964][844]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.19.07:984][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020322s)
+[2026.11.21-22.19.07:984][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.020351s)
+[2026.11.21-22.19.08:005][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.11.21-22.19.08:009][844]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.21-22.19.08:010][844]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2026.11.21-22.19.08:011][844]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.21-22.19.08:011][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.21-22.19.08:011][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.21-22.19.08:011][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.21-22.19.08:011][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.21-22.19.08:011][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.21-22.19.08:013][844]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.21-22.19.08:029][844]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (DAEWOO PRIX)
+[2026.11.21-22.19.08:030][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.21-22.19.08:030][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.21-22.19.08:030][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.21-22.19.08:030][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.11.21-22.19.08:030][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.11.21-22.19.08:032][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.11.21-22.19.08:032][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.11.21-22.19.08:032][844]LogInit: FAudioDevice initialized with ID 9.
+[2026.11.21-22.19.08:032][844]LogAudio: Display: Audio Device (ID: 9) registered with world 'Mapa_PI'.
+[2026.11.21-22.19.08:033][844]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.11.21-22.19.08:085][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.19.08:085][844]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.21-22.19.08:094][844]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.21-19.19.08
+[2026.11.21-22.19.08:095][844]LogWorld: Bringing up level for play took: 0.008889
+[2026.11.21-22.19.08:098][844]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2026.11.21-22.19.08:105][844]PIE: Server logged in
+[2026.11.21-22.19.08:107][844]PIE: Play in editor total start time 0.146 seconds.
+[2026.11.21-22.19.08:189][845]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.21-22.19.09:779][ 30]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.10:380][102]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.11:230][204]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.11:755][267]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.12:431][348]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.12:814][394]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.15:599][728]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.15:765][748]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.17:474][953]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.20:984][177]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.21:890][286]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.25:576][728]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.29:647][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.19.29:647][ 16]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.19.29:647][ 16]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.21-22.19.29:652][ 16]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.19.29:654][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.19.29:656][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.21-22.19.29:661][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.19.29:683][ 16]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.11.21-22.19.29:684][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.11.21-22.19.29:684][ 16]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.11.21-22.19.29:686][ 16]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.11.21-22.19.29:694][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.11.21-22.19.29:725][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2026.11.21-22.19.41:825][220]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.21-22.19.41:830][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.21-22.19.41:831][220]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.19.41:850][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020466s)
+[2026.11.21-22.19.41:850][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.020496s)
+[2026.11.21-22.19.41:873][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.11.21-22.19.41:874][220]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.21-22.19.41:876][220]LogPlayLevel: PIE: World Init took: (0.001454s)
+[2026.11.21-22.19.41:876][220]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.21-22.19.41:876][220]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.21-22.19.41:876][220]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.21-22.19.41:876][220]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.21-22.19.41:876][220]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.21-22.19.41:876][220]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.21-22.19.41:879][220]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.21-22.19.41:895][220]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (DAEWOO PRIX)
+[2026.11.21-22.19.41:895][220]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.21-22.19.41:895][220]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.21-22.19.41:895][220]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.21-22.19.41:896][220]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.11.21-22.19.41:896][220]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.11.21-22.19.41:898][220]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.11.21-22.19.41:898][220]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.11.21-22.19.41:898][220]LogInit: FAudioDevice initialized with ID 10.
+[2026.11.21-22.19.41:898][220]LogAudio: Display: Audio Device (ID: 10) registered with world 'Mapa_PI'.
+[2026.11.21-22.19.41:898][220]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.11.21-22.19.41:929][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.19.41:930][220]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.21-22.19.41:938][220]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.21-19.19.41
+[2026.11.21-22.19.41:939][220]LogWorld: Bringing up level for play took: 0.008772
+[2026.11.21-22.19.41:941][220]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.11.21-22.19.41:949][220]PIE: Server logged in
+[2026.11.21-22.19.41:950][220]PIE: Play in editor total start time 0.121 seconds.
+[2026.11.21-22.19.42:024][221]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.21-22.19.45:774][666]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.45:983][691]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.46:124][708]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.46:266][725]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.47:182][835]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.47:357][856]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.47:515][875]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.47:640][890]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.19.48:007][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.19.48:007][929]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.19.48:007][929]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.21-22.19.48:011][929]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.19.48:014][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.19.48:016][929]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.21-22.19.48:021][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.19.48:044][929]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.11.21-22.19.48:044][929]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.11.21-22.19.48:045][929]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.11.21-22.19.48:053][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.11.21-22.19.48:089][930]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.11.21-22.20.24:542][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.11.21-22.20.24:602][118]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PI_Contenido/Mapa_PI_Auto3
+[2026.11.21-22.20.24:603][118]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI_Auto33BABE5D64BE091DD675540B12C2AF623.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Autosaves/Game/PI_Contenido/Mapa_PI_Auto3.umap'
+[2026.11.21-22.20.24:604][118]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PI_Contenido/Mapa_PI' took 0.084
+[2026.11.21-22.20.24:604][118]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.084
+[2026.11.21-22.21.37:815][338]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2773.548828
+[2026.11.21-22.21.38:815][341]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.21-22.21.38:815][341]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2774.215332, Update Interval: 314.542694
+[2026.11.21-22.21.47:410][ 80]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.21.47:410][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.21.47:458][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.11.21-22.22.16:285][324]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.22.16:285][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.22.16:323][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.11.21-22.22.16:820][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.21-22.22.16:820][382]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.22.16:820][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.22.16:864][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.11.21-22.22.33:930][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.11.21-22.22.34:423][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.22.34:476][435]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.11.21-22.22.34:645][435]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.11.21-22.22.34:645][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.11.21-22.22.34:665][435]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.11.21-22.22.34:666][435]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/BP_FirstPersonCharacter3CB2311740245BDFF26D85A73DAC0F18.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.11.21-22.22.34:674][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 251.780 ms (total: 1.69 sec)
+[2026.11.21-22.22.34:725][435]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.21-22.22.34:725][435]LogContentValidation: Enabled validators:
+[2026.11.21-22.22.34:725][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.22.34:725][435]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.22.34:725][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.22.34:725][435]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.22.34:725][435]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.22.34:725][435]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.22.34:725][435]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.11.21-22.22.35:083][476]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.21-22.22.35:084][476]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.22.35:084][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.22.35:147][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.11.21-22.22.36:027][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.21-22.22.36:767][541]LogSlate: Window 'Save Content' being destroyed
+[2026.11.21-22.22.36:784][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.22.36:861][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.11.21-22.22.36:916][541]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.21-22.22.36:917][541]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI7E0A4E2744D2B6150A6544AB6EA83628.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.21-22.22.36:924][541]LogFileHelpers: Saving map 'Mapa_PI' took 0.098
+[2026.11.21-22.22.36:930][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.940 ms (total: 1.84 sec)
+[2026.11.21-22.22.36:992][541]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.21-22.22.36:992][541]LogContentValidation: Enabled validators:
+[2026.11.21-22.22.36:992][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.22.36:992][541]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.22.36:992][541]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.22.36:992][541]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.22.36:992][541]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.22.36:992][541]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.22.36:992][541]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.21-22.22.41:016][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.21-22.22.41:110][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.11.21-22.22.41:166][  8]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.21-22.22.41:167][  8]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PID5668D2D4450EDF6641873948E71861C.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.21-22.22.41:173][  8]LogFileHelpers: Saving map 'Mapa_PI' took 0.101
+[2026.11.21-22.22.41:184][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.715 ms (total: 2.00 sec)
+[2026.11.21-22.22.41:223][  8]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.21-22.22.41:223][  8]LogContentValidation: Enabled validators:
+[2026.11.21-22.22.41:223][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.21-22.22.41:223][  8]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.21-22.22.41:223][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.21-22.22.41:223][  8]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.21-22.22.41:223][  8]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.21-22.22.41:223][  8]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.21-22.22.41:223][  8]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.21-22.23.09:463][140]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.21-22.23.09:468][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.21-22.23.09:468][140]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.23.09:488][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020445s)
+[2026.11.21-22.23.09:488][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.020475s)
+[2026.11.21-22.23.09:510][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.11.21-22.23.09:512][140]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.21-22.23.09:514][140]LogPlayLevel: PIE: World Init took: (0.001498s)
+[2026.11.21-22.23.09:515][140]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.21-22.23.09:515][140]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.21-22.23.09:515][140]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.21-22.23.09:515][140]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.21-22.23.09:515][140]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.21-22.23.09:515][140]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.21-22.23.09:517][140]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.21-22.23.09:534][140]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (DAEWOO PRIX)
+[2026.11.21-22.23.09:534][140]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.21-22.23.09:534][140]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.21-22.23.09:534][140]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.21-22.23.09:534][140]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.11.21-22.23.09:534][140]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.11.21-22.23.09:536][140]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.11.21-22.23.09:536][140]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.11.21-22.23.09:536][140]LogInit: FAudioDevice initialized with ID 11.
+[2026.11.21-22.23.09:536][140]LogAudio: Display: Audio Device (ID: 11) registered with world 'Mapa_PI'.
+[2026.11.21-22.23.09:536][140]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.11.21-22.23.09:583][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.23.09:583][140]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.21-22.23.09:593][140]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.21-19.23.09
+[2026.11.21-22.23.09:593][140]LogWorld: Bringing up level for play took: 0.009245
+[2026.11.21-22.23.09:595][140]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.11.21-22.23.09:604][140]PIE: Server logged in
+[2026.11.21-22.23.09:606][140]PIE: Play in editor total start time 0.138 seconds.
+[2026.11.21-22.23.09:678][141]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.21-22.23.10:747][262]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.23.11:055][299]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.23.11:305][329]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.23.11:706][377]LogBlueprintUserMessages: [BP_InteractableLightBall_C_1] Interactuaste con: BP_InteractableLightBall
+[2026.11.21-22.23.12:506][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.21-22.23.12:506][470]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.21-22.23.12:506][470]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.21-22.23.12:510][470]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.23.12:513][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.23.12:514][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.21-22.23.12:519][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.23.12:541][470]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.11.21-22.23.12:541][470]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.11.21-22.23.12:543][470]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.11.21-22.23.12:551][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.11.21-22.23.12:587][471]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.11.21-22.23.18:814][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableLightBall.BP_InteractableLightBall
+[2026.11.21-22.23.18:814][158]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.11.21-22.23.25:171][874]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.23.25:171][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.23.25:231][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.11.21-22.23.26:346][949]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PI_Contenido/Blueprints/Interactables/BP_InteractableBase.BP_InteractableBase
+[2026.11.21-22.23.26:346][949]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.11.21-22.23.36:628][143]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.11.21-22.23.36:628][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.21-22.23.36:685][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
