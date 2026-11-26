@@ -5346,3 +5346,345 @@ Sampler Limit: 32
 [2026.11.26-03.49.48:275][981]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.26-03.49.48:275][981]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.26-03.49.48:275][981]AssetCheck: /Game/PI_Contenido/Materiales_colores/Vidrios/glow_techo Validating asset
+[2026.11.26-03.51.13:892][299]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-03.51.13:892][299]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-03.51.13:892][299]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_816
+[2026.11.26-03.51.13:893][299]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_816
+[2026.11.26-03.51.14:432][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.51.14:434][358]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2026.11.26-03.51.14:437][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-03.51.14:437][358]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-03.51.14:438][358]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_817
+[2026.11.26-03.51.14:440][358]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_817
+[2026.11.26-03.51.38:793][931]Cmd: TRANSACTION UNDO
+[2026.11.26-03.51.38:793][931]LogEditorTransaction: Undo Place Objects
+[2026.11.26-03.51.47:114][697]Cmd: TRANSACTION UNDO
+[2026.11.26-03.51.47:114][697]LogEditorTransaction: Undo Place Objects
+[2026.11.26-03.52.57:658][251]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.26-03.52.57:749][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.26-03.52.57:867][251]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.26-03.52.57:868][251]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI462622E448AAF38E730CECBF1D8065C3.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.26-03.52.57:880][251]LogFileHelpers: Saving map 'Mapa_PI' took 0.178
+[2026.11.26-03.52.57:891][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 233.245 ms (total: 8.36 sec)
+[2026.11.26-03.52.57:933][251]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.26-03.52.57:933][251]LogContentValidation: Enabled validators:
+[2026.11.26-03.52.57:933][251]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.26-03.52.57:933][251]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.26-03.52.57:933][251]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.26-03.52.57:933][251]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.26-03.52.57:933][251]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.26-03.52.57:933][251]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.26-03.52.57:933][251]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.26-03.53.01:289][624]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.53.01:289][624]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.53.01:290][624]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_820
+[2026.11.26-03.53.01:290][624]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_820
+[2026.11.26-03.53.01:844][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.53.01:845][683]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2026.11.26-03.53.01:848][683]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.53.01:848][683]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.53.01:850][683]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_821
+[2026.11.26-03.53.01:850][683]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_821
+[2026.11.26-03.55.31:137][281]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2026.11.26-03.55.31:137][281]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2026.11.26-03.55.33:834][586]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9919.433594
+[2026.11.26-03.55.34:067][614]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.26-03.55.34:067][614]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9919.657227, Update Interval: 302.801605
+[2026.11.26-03.56.16:325][518]Cmd: TRANSACTION UNDO
+[2026.11.26-03.56.16:325][518]LogEditorTransaction: Undo Move Elements
+[2026.11.26-03.56.45:217][753]Cmd: DELETE
+[2026.11.26-03.56.45:217][753]Cmd: ACTOR DELETE
+[2026.11.26-03.56.45:227][753]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.45:259][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.11.26-03.56.45:266][753]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2026.11.26-03.56.45:995][833]Cmd: DELETE
+[2026.11.26-03.56.45:995][833]Cmd: ACTOR DELETE
+[2026.11.26-03.56.46:003][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.46:033][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.56.46:037][833]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2026.11.26-03.56.46:404][869]Cmd: DELETE
+[2026.11.26-03.56.46:404][869]Cmd: ACTOR DELETE
+[2026.11.26-03.56.46:413][869]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.46:444][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.56.46:447][869]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2026.11.26-03.56.47:801][ 18]Cmd: DELETE
+[2026.11.26-03.56.47:801][ 18]Cmd: ACTOR DELETE
+[2026.11.26-03.56.47:811][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.47:840][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.56.47:843][ 18]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2026.11.26-03.56.48:694][113]Cmd: DELETE
+[2026.11.26-03.56.48:694][113]Cmd: ACTOR DELETE
+[2026.11.26-03.56.48:703][113]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.48:732][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.56.48:736][113]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2026.11.26-03.56.51:364][414]Cmd: DELETE
+[2026.11.26-03.56.51:364][414]Cmd: ACTOR DELETE
+[2026.11.26-03.56.51:373][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.51:402][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.56.51:406][414]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2026.11.26-03.56.51:911][468]Cmd: DELETE
+[2026.11.26-03.56.51:911][468]Cmd: ACTOR DELETE
+[2026.11.26-03.56.51:921][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-03.56.51:950][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-03.56.51:953][468]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2026.11.26-03.57.43:390][321]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.57.43:390][321]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.57.43:391][321]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_871
+[2026.11.26-03.57.43:391][321]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_871
+[2026.11.26-03.57.44:159][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.26-03.57.44:166][405]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2026.11.26-03.57.44:169][405]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.57.44:169][405]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.57.44:171][405]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_872
+[2026.11.26-03.57.44:171][405]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_872
+[2026.11.26-03.58.01:900][332]Cmd: TRANSACTION UNDO
+[2026.11.26-03.58.01:900][332]LogEditorTransaction: Undo Move Elements
+[2026.11.26-03.58.23:283][602]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.58.23:283][602]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.58.23:284][602]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_878
+[2026.11.26-03.58.23:284][602]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_878
+[2026.11.26-03.58.23:682][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.26-03.58.23:689][642]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2026.11.26-03.58.23:692][642]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.58.23:692][642]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-03.58.23:695][642]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_879
+[2026.11.26-03.58.23:695][642]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_879
+[2026.11.26-03.59.44:602][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.26-03.59.44:711][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.26-03.59.44:835][ 50]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.26-03.59.44:836][ 50]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI5CB6C3BF4F51A18E9C449588139556BF.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.26-03.59.44:847][ 50]LogFileHelpers: Saving map 'Mapa_PI' took 0.186
+[2026.11.26-03.59.44:856][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 253.997 ms (total: 8.61 sec)
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: Enabled validators:
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.26-03.59.44:910][ 50]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.26-03.59.44:910][ 50]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.26-04.01.02:381][590]Cmd: TRANSACTION UNDO
+[2026.11.26-04.01.02:381][590]LogEditorTransaction: Undo Place Objects
+[2026.11.26-04.01.10:526][393]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.01.10:526][393]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.01.10:526][393]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_888
+[2026.11.26-04.01.10:527][393]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_888
+[2026.11.26-04.01.11:121][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.11.26-04.01.11:128][450]LogEditorActor: Deleted 0 Actors (0.046 secs)
+[2026.11.26-04.01.11:132][450]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.01.11:132][450]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.01.11:134][450]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_889
+[2026.11.26-04.01.11:134][450]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_889
+[2026.11.26-04.01.31:921][146]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10277.753906
+[2026.11.26-04.01.32:154][155]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.26-04.01.32:154][155]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10277.953125, Update Interval: 330.290222
+[2026.11.26-04.01.35:617][546]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.01.35:617][546]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.01.35:618][546]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_891
+[2026.11.26-04.01.35:620][546]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_891
+[2026.11.26-04.01.36:110][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.26-04.01.36:115][591]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2026.11.26-04.01.36:118][591]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.01.36:118][591]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.01.36:119][591]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_892
+[2026.11.26-04.01.36:120][591]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_892
+[2026.11.26-04.01.46:052][702]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.01.46:053][702]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.01.46:053][702]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_893
+[2026.11.26-04.01.46:055][702]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_893
+[2026.11.26-04.01.46:821][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-04.01.46:824][779]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2026.11.26-04.01.46:828][779]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.01.46:828][779]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.01.46:829][779]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_894
+[2026.11.26-04.01.46:830][779]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_894
+[2026.11.26-04.02.42:090][ 12]Cmd: TRANSACTION UNDO
+[2026.11.26-04.02.42:091][ 12]LogEditorTransaction: Undo Move Elements
+[2026.11.26-04.02.52:388][136]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.02.52:388][136]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.02.52:388][136]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_922
+[2026.11.26-04.02.52:389][136]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_922
+[2026.11.26-04.02.52:978][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.26-04.02.52:984][193]LogEditorActor: Deleted 0 Actors (0.044 secs)
+[2026.11.26-04.02.52:986][193]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.02.52:986][193]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.02.52:988][193]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_923
+[2026.11.26-04.02.52:989][193]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_923
+[2026.11.26-04.02.58:875][868]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.26-04.02.58:875][868]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.26-04.02.58:876][868]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_924
+[2026.11.26-04.02.58:876][868]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_924
+[2026.11.26-04.03.00:172][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.26-04.03.00:175][ 13]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2026.11.26-04.03.00:179][ 13]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.26-04.03.00:179][ 13]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2026.11.26-04.03.00:180][ 13]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_925
+[2026.11.26-04.03.00:181][ 13]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_925
+[2026.11.26-04.03.22:578][498]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.03.22:578][498]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.03.22:579][498]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_928
+[2026.11.26-04.03.22:580][498]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_928
+[2026.11.26-04.03.23:049][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.26-04.03.23:053][541]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2026.11.26-04.03.23:057][541]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.03.23:057][541]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.03.23:058][541]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_929
+[2026.11.26-04.03.23:059][541]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_929
+[2026.11.26-04.03.23:865][631]Cmd: TRANSACTION UNDO
+[2026.11.26-04.03.23:866][631]LogEditorTransaction: Undo Place Objects
+[2026.11.26-04.03.32:040][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.26-04.03.32:149][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.11.26-04.03.32:278][458]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.26-04.03.32:278][458]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI1F133B264EA1893D327378AFE846B9F1.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.26-04.03.32:290][458]LogFileHelpers: Saving map 'Mapa_PI' took 0.195
+[2026.11.26-04.03.32:299][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 258.269 ms (total: 8.87 sec)
+[2026.11.26-04.03.32:361][458]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.26-04.03.32:361][458]LogContentValidation: Enabled validators:
+[2026.11.26-04.03.32:361][458]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.26-04.03.32:361][458]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.26-04.03.32:361][458]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.26-04.03.32:361][458]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.26-04.03.32:361][458]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.26-04.03.32:361][458]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.26-04.03.32:361][458]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.26-04.03.56:277][171]LogWindowsTextInputMethodSystem: Activated input method: Español (Argentina) - (Keyboard).
+[2026.11.26-04.03.56:277][171]LogWindowsTextInputMethodSystem: Activated input method: Español (Argentina) - (Keyboard).
+[2026.11.26-04.04.20:083][794]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.04.20:083][794]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.04.20:083][794]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_935
+[2026.11.26-04.04.20:084][794]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_935
+[2026.11.26-04.04.20:567][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.26-04.04.20:573][838]LogEditorActor: Deleted 0 Actors (0.044 secs)
+[2026.11.26-04.04.20:577][838]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.04.20:577][838]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2026.11.26-04.04.20:578][838]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_936
+[2026.11.26-04.04.20:579][838]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_936
+[2026.11.26-04.07.59:058][176]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10665.078125
+[2026.11.26-04.07.59:281][191]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.26-04.07.59:281][191]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10665.285156, Update Interval: 329.279449
+[2026.11.26-04.09.04:519][734]Cmd: TRANSACTION UNDO
+[2026.11.26-04.09.04:519][734]LogEditorTransaction: Undo Rotate Elements
+[2026.11.26-04.09.05:285][770]Cmd: TRANSACTION UNDO
+[2026.11.26-04.09.05:285][770]LogEditorTransaction: Undo Move Elements
+[2026.11.26-04.09.39:304][596]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.09.39:304][596]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.09.39:304][596]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_951
+[2026.11.26-04.09.39:305][596]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_951
+[2026.11.26-04.09.39:760][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.11.26-04.09.39:767][642]LogEditorActor: Deleted 0 Actors (0.051 secs)
+[2026.11.26-04.09.39:770][642]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.09.39:770][642]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.09.39:772][642]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_952
+[2026.11.26-04.09.39:772][642]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_952
+[2026.11.26-04.09.47:128][455]Cmd: TRANSACTION UNDO
+[2026.11.26-04.09.47:128][455]LogEditorTransaction: Undo Move Elements
+[2026.11.26-04.10.48:300][169]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.10.48:300][169]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.10.48:301][169]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_958
+[2026.11.26-04.10.48:301][169]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_958
+[2026.11.26-04.10.48:982][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.26-04.10.48:988][237]LogEditorActor: Deleted 0 Actors (0.048 secs)
+[2026.11.26-04.10.48:992][237]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.10.48:992][237]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.10.48:993][237]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_959
+[2026.11.26-04.10.48:994][237]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_959
+[2026.11.26-04.11.41:948][195]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.11.26-04.11.41:955][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.11.26-04.11.41:955][195]LogPlayLevel: Creating play world package: /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.26-04.11.42:004][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049394s)
+[2026.11.26-04.11.42:004][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PI_Contenido/Mapa_PI.Mapa_PI to /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI (0.049430s)
+[2026.11.26-04.11.42:043][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.11.26-04.11.42:051][195]LogChaosDD: Creating Chaos Debug Draw Scene for world Mapa_PI
+[2026.11.26-04.11.42:053][195]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2026.11.26-04.11.42:053][195]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.11.26-04.11.42:053][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.11.26-04.11.42:053][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.11.26-04.11.42:053][195]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.11.26-04.11.42:054][195]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.11.26-04.11.42:054][195]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.11.26-04.11.42:056][195]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.11.26-04.11.42:076][195]LogAudioMixer: Display: Using Audio Hardware Device LG TV (NVIDIA High Definition Audio)
+[2026.11.26-04.11.42:077][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.11.26-04.11.42:077][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.11.26-04.11.42:077][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.11.26-04.11.42:078][195]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2026.11.26-04.11.42:078][195]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2026.11.26-04.11.42:079][195]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2026.11.26-04.11.42:080][195]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2026.11.26-04.11.42:080][195]LogInit: FAudioDevice initialized with ID 34.
+[2026.11.26-04.11.42:080][195]LogAudio: Display: Audio Device (ID: 34) registered with world 'Mapa_PI'.
+[2026.11.26-04.11.42:080][195]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2026.11.26-04.11.42:136][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.26-04.11.42:137][195]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.11.26-04.11.42:158][195]LogWorld: Bringing World /Game/PI_Contenido/UEDPIE_0_Mapa_PI.Mapa_PI up for play (max tick rate 0) at 2026.11.26-01.11.42
+[2026.11.26-04.11.42:159][195]LogWorld: Bringing up level for play took: 0.021716
+[2026.11.26-04.11.42:161][195]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2026.11.26-04.11.42:166][195]LogBlueprintUserMessages: [BP_SalonManager_C_0] DEBUG Salon listo. Lanzables encontrados: 17
+[2026.11.26-04.11.42:166][195]LogBlueprintUserMessages: [BP_SalonManager_C_0] DEBUG Zona centro X=116.342 Y=888.433 Z=300.000 | extent X=500.000 Y=500.000 Z=200.000 | escala X=2.109 Y=3.569 Z=7.227
+[2026.11.26-04.11.42:167][195]LogBlueprintUserMessages: [BP_SalonManager_C_0] DEBUG Timer de lanzamiento frenado
+[2026.11.26-04.11.42:167][195]LogBlueprintUserMessages: [BP_SalonManager_C_0] DEBUG Al arrancar, jugador dentro: false
+[2026.11.26-04.11.42:173][195]PIE: Server logged in
+[2026.11.26-04.11.42:174][195]PIE: Play in editor total start time 0.22 seconds.
+[2026.11.26-04.11.42:282][196]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.11.26-04.12.04:533][853]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.11.26-04.12.53:633][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.11.26-04.12.53:633][732]LogWorld: BeginTearingDown for /Game/PI_Contenido/UEDPIE_0_Mapa_PI
+[2026.11.26-04.12.53:634][732]LogSlate: Window 'TESIS_Pausa_Inquieta Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.11.26-04.12.53:643][732]LogWorld: UWorld::CleanupWorld for Mapa_PI, bSessionEnded=true, bCleanupResources=true
+[2026.11.26-04.12.53:649][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.26-04.12.53:650][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.11.26-04.12.53:653][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.26-04.12.53:699][732]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2026.11.26-04.12.53:699][732]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2026.11.26-04.12.53:702][732]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2026.11.26-04.12.53:716][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.11.26-04.12.53:771][733]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2026.11.26-04.13.20:697][645]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.13.20:697][645]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.13.20:698][645]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_964
+[2026.11.26-04.13.20:699][645]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_964
+[2026.11.26-04.13.21:150][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.11.26-04.13.21:155][685]LogEditorActor: Deleted 0 Actors (0.036 secs)
+[2026.11.26-04.13.21:158][685]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.13.21:158][685]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2026.11.26-04.13.21:160][685]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_965
+[2026.11.26-04.13.21:160][685]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_965
+[2026.11.26-04.13.38:125][644]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.13.38:125][644]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.13.38:126][644]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_966
+[2026.11.26-04.13.38:127][644]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_966
+[2026.11.26-04.13.38:713][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.11.26-04.13.38:717][701]LogEditorActor: Deleted 0 Actors (0.041 secs)
+[2026.11.26-04.13.38:721][701]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.13.38:721][701]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.11.26-04.13.38:722][701]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_967
+[2026.11.26-04.13.38:722][701]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/PI_Contenido/Mapa_PI.Mapa_PI:PersistentLevel.StaticMeshActor_967
+[2026.11.26-04.13.39:254][756]Cmd: TRANSACTION UNDO
+[2026.11.26-04.13.39:254][756]LogEditorTransaction: Undo Place Objects
+[2026.11.26-04.13.59:244][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11025.370117
+[2026.11.26-04.13.59:469][ 21]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.26-04.13.59:469][ 21]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11025.587891, Update Interval: 304.700470
+[2026.11.26-04.14.13:973][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.26-04.14.14:073][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.11.26-04.14.14:206][548]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.26-04.14.14:206][548]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PIAD7B4EEE4C1D480974CA25924BCC7295.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.26-04.14.14:218][548]LogFileHelpers: Saving map 'Mapa_PI' took 0.199
+[2026.11.26-04.14.14:225][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 250.899 ms (total: 9.12 sec)
+[2026.11.26-04.14.14:285][548]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.26-04.14.14:285][548]LogContentValidation: Enabled validators:
+[2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.26-04.14.14:286][548]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
