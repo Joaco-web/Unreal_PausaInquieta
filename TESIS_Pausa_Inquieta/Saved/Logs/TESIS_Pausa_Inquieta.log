@@ -5688,3 +5688,55 @@ Sampler Limit: 32
 [2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.11.26-04.14.14:285][548]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.11.26-04.14.14:286][548]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.26-04.15.49:672][440]Cmd: TRANSACTION UNDO
+[2026.11.26-04.15.49:672][440]LogEditorTransaction: Undo Move Elements
+[2026.11.26-04.15.56:331][138]Cmd: TRANSACTION UNDO
+[2026.11.26-04.15.56:331][138]LogEditorTransaction: Undo Rotate Elements
+[2026.11.26-04.16.17:763][576]Cmd: DELETE
+[2026.11.26-04.16.17:763][576]Cmd: ACTOR DELETE
+[2026.11.26-04.16.17:773][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.26-04.16.17:802][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.11.26-04.16.17:809][576]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2026.11.26-04.16.51:920][368]Cmd: TRANSACTION UNDO
+[2026.11.26-04.16.51:920][368]LogEditorTransaction: Undo Move Elements
+[2026.11.26-04.17.44:198][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.26-04.17.44:302][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.11.26-04.17.44:433][539]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.26-04.17.44:434][539]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI0D81D91E4DF1E0EC87C200B5A3FFC594.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.26-04.17.44:446][539]LogFileHelpers: Saving map 'Mapa_PI' took 0.207
+[2026.11.26-04.17.44:455][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 256.560 ms (total: 9.38 sec)
+[2026.11.26-04.17.44:507][539]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.26-04.17.44:507][539]LogContentValidation: Enabled validators:
+[2026.11.26-04.17.44:507][539]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.26-04.17.44:507][539]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.26-04.17.44:507][539]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.26-04.17.44:507][539]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.26-04.17.44:507][539]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.26-04.17.44:507][539]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.26-04.17.44:507][539]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.26-04.18.11:997][ 46]Cmd: TRANSACTION UNDO
+[2026.11.26-04.18.11:997][ 46]LogEditorTransaction: Undo Move Elements
+[2026.11.26-04.18.23:560][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.26-04.18.23:656][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.11.26-04.18.23:787][244]LogSavePackage: Moving output files for package: /Game/PI_Contenido/Mapa_PI
+[2026.11.26-04.18.23:788][244]LogSavePackage: Moving '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Saved/Mapa_PI2250130241458096F00FFB87215884BF.tmp' to '../../../../../../Users/User/Documents/LocalGitHub/Unreal_PausaInquieta/TESIS_Pausa_Inquieta/Content/PI_Contenido/Mapa_PI.umap'
+[2026.11.26-04.18.23:801][244]LogFileHelpers: Saving map 'Mapa_PI' took 0.203
+[2026.11.26-04.18.23:810][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 250.344 ms (total: 9.63 sec)
+[2026.11.26-04.18.23:864][244]LogContentValidation: Display: Starting to validate 1 assets
+[2026.11.26-04.18.23:864][244]LogContentValidation: Enabled validators:
+[2026.11.26-04.18.23:864][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.26-04.18.23:864][244]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.26-04.18.23:864][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.26-04.18.23:864][244]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.26-04.18.23:864][244]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.26-04.18.23:864][244]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.26-04.18.23:865][244]AssetCheck: /Game/PI_Contenido/Mapa_PI Validating asset
+[2026.11.26-04.19.02:587][101]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Auriculares (DAEWOO PRIX), InstanceID=1
+[2026.11.26-04.19.02:587][101]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{fab7918a-aa3c-4a11-a839-aff062b2f8e5}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.11.26-04.19.02:815][101]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{fab7918a-aa3c-4a11-a839-aff062b2f8e5}]
+[2026.11.26-04.19.02:815][101]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.26-04.19.02:815][101]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.11.26-04.19.03:151][102]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{fab7918a-aa3c-4a11-a839-aff062b2f8e5}, Name=Auriculares (DAEWOO PRIX)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=16.69
+[2026.11.26-04.19.03:151][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.11.26-04.19.03:151][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.26-04.19.03:153][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
